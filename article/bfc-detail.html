@@ -5,9 +5,11 @@
     <title>什么是bfc</title>
 </head>
 <body>
-<my-markdown>
-#什么是bfc
+<my-markdown class="typo">
+# 什么是bfc
+
 bfc全称是block formating context,块级格式化上下文
+
 触发bfc的条件
 - 根元素或其它包含它的元素
 - 浮动元素，float的值不为none
@@ -18,9 +20,9 @@ bfc全称是block formating context,块级格式化上下文
 - column-span: all 应当总是会创建一个新的格式化上下文，即便具有 column-span: all 的元素并不被包裹在一个多列容器中
 
 
-###使用场景：
-#####1. 父元素包裹子元素
-#####2. 兄弟元素的margin隔离
+### 使用场景：
+##### 1. 父元素包裹子元素
+##### 2. 兄弟元素的margin隔离
 </my-markdown>
 <script src="../js/marked.js"></script>
 <script src="../js/main.js"></script>
