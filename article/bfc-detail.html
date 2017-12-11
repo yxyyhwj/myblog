@@ -16,13 +16,21 @@ bfc全称是block formating context,块级格式化上下文
 - 绝对定位元素，position的值为absolute或fixed
 - display的值为inline-block、table-cell、table-caption，即为内联块
 - overflow的值不为visible；
-- display: flow-root
-- column-span: all 应当总是会创建一个新的格式化上下文，即便具有 column-span: all 的元素并不被包裹在一个多列容器中
+- display: flow-root,新增属性，只为触发bfc
 
 
 ### 使用场景：
-##### 1. 父元素包裹子元素
+##### 1. 父元素包裹子浮动元素
 ##### 2. 兄弟元素的margin隔离
+##### 3. 父子的margin隔离,给父元素bfc
+
+第一个场景用clearfix代替
+'.clearfix::after{content:'';display:block;clear:both}'
+
+第二个场景用flex布局代替
+
+第三个场景使用border-top或者padding-top隔离代替
+
 </my-markdown>
 <script src="../js/marked.js"></script>
 <script src="../js/main.js"></script>
