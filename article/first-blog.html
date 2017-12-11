@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客首页</title>
+    <link rel="stylesheet" href="../css/typo.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<my-markdown>
+这里是第一篇文章的测试标题
+=======
+首先我们来测试一下markdown的相关功能
+-------
+#header1
+##header2
+###header3
+
+这个markdown的插件**似乎**只支持*setext*的语法。
+
+__atx__的语法测试了_好像_不能通过
+
+>this is a blockquote
+>
+
+list1
+* candy
+* gum
+* booze
+
+list2
++ 123
++ 1234
++ 123
++ 1234
+
+list3
+1. word1
+2. word12
+3. word123
+4. word1234
+5. word12345
+
+代码测试
+`var a = 0;console.log(a)`
+
+代码段落怎么办
+    indent = 4
+    this = ok?
+
+
+</my-markdown>
+<script src="../js/marked.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
