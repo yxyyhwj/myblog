@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>css基本知识点回顾</title>
-</head>
-<body>
-<my-markdown>
 # css常见易混淆问题汇总
 
 ### 一、css的文档流(normal flow)：感觉其实叫做常规布局规律更好
@@ -49,8 +41,3 @@ https://github.com/purplebamboo/font-carrier
 #### 张鑫旭的图标研究
 [如何灵活利用免费开源图标字体-IcoMoon篇 « 张鑫旭-鑫空间-鑫生活](http://www.zhangxinxu.com/wordpress/2012/06/free-icon-font-usage-icomoon/)
 [以20像素为基准的CSS网页布局实践分享 « 张鑫旭-鑫空间-鑫生活](http://www.zhangxinxu.com/wordpress/2016/03/css-layout-base-20px/)
-</my-markdown>
-<script src="../js/marked.js"></script>
-<script src="../js/main.js"></script>
-</body>
-</html>

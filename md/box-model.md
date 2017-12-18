@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>css盒模型</title>
-</head>
-<body>
-<my-markdown>
 # box-sizing
 ###### 定义
 用于更改用于计算元素宽度和高度的默认的，可以使用此属性来模拟不正确支持CSS盒子模型规范的浏览器的行为
@@ -21,8 +13,3 @@
 背景包含了content+padding
 
 > 其实一般来说，使用border-box好布局一些，但我很少去改变这个属性，都用默认值了(捂脸:
-</my-markdown>
-<script src="../js/marked.js"></script>
-<script src="../js/main.js"></script>
-</body>
-</html>

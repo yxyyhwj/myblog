@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>什么是bfc</title>
-</head>
-<body>
-<my-markdown class="typo">
 # 什么是bfc
 
 bfc全称是block formating context,块级格式化上下文
@@ -30,9 +22,3 @@ bfc全称是block formating context,块级格式化上下文
 第二个场景用flex布局代替
 
 第三个场景使用border-top或者padding-top隔离代替
-
-</my-markdown>
-<script src="../js/marked.js"></script>
-<script src="../js/main.js"></script>
-</body>
-</html>

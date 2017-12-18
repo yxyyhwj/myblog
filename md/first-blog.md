@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>博客首页</title>
-    <link rel="stylesheet" href="../css/typo.css">
-    <link rel="stylesheet" href="../css/index.css">
-</head>
-<body>
-<my-markdown>
+
 这里是第一篇文章的测试标题
 =======
 首先我们来测试一下markdown的相关功能
@@ -47,10 +38,3 @@ list3
 代码段落怎么办
     indent = 4
     this = ok?
-
-
-</my-markdown>
-<script src="../js/marked.js"></script>
-<script src="../js/main.js"></script>
-</body>
-</html>
