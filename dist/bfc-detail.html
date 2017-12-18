@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bfc-detail</title>
+    <link rel="stylesheet" href="../css/typo.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<my-markdown>
+# 什么是bfc
+
+bfc全称是block formating context,块级格式化上下文
+
+触发bfc的条件
+- 根元素或其它包含它的元素
+- 浮动元素，float的值不为none
+- 绝对定位元素，position的值为absolute或fixed
+- display的值为inline-block、table-cell、table-caption，即为内联块
+- overflow的值不为visible；
+- display: flow-root,新增属性，只为触发bfc
+
+
+### 使用场景：
+##### 1. 父元素包裹子浮动元素
+##### 2. 兄弟元素的margin隔离
+##### 3. 父子的margin隔离,给父元素bfc
+
+第一个场景用clearfix代替
+'.clearfix::after{content:'';display:block;clear:both}'
+
+第二个场景用flex布局代替
+
+第三个场景使用border-top或者padding-top隔离代替
+
+</my-markdown>
+<script src="../js/marked.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
